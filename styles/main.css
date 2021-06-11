@@ -1,0 +1,70 @@
+* {
+    margin: 0;;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+body {
+    width: 100%;
+    display: grid;
+    min-height: 100vh;
+    place-content: center;
+}
+
+.cards-container {
+    width: 90%;
+    margin: auto;
+    flex-grow: 1;
+    display: flex;
+    color: #ffffff;
+    overflow: hidden;
+    max-width: 1000px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cards-container .card {
+    padding: 50px;
+    height: 100%;
+    align-self: stretch;
+}
+
+.cards-container .card.sedan {
+    background: hsl(31, 77%, 52%);
+}
+
+.cards-container .card.suv {
+    background: hsl(184, 100%, 22%)
+}
+
+.cards-container .card.luxury {
+    background: hsl(179, 100%, 13%)
+}
+
+.cards-container .card img {
+    margin-bottom: 40px;
+}
+
+.cards-container .card h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+.cards-container .card p {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.cards-container .card button {
+    padding: 10px 15px;
+}
